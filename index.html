@@ -13,7 +13,7 @@
         }
         
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-family: 'Arial', sans-serif; /* Changed font to Arial */
             background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
             background-size: 400% 400%;
             animation: gradient 15s ease infinite;
@@ -237,7 +237,7 @@
             
             const colors = ['#FF9AA2', '#FFB7B2', '#FFDAC1', '#E2F0CB', '#B5EAD7', '#C7CEEA', '#F8B195', '#F67280'];
             
-            for (let i = 0; i < 15; i++) {
+            for (let i = 0; i < 5; i++) { // Changed from 15 to 5 to reduce the number of floating icons
                 const iconElement = document.createElement('div');
                 iconElement.className = 'floating-icon';
                 iconElement.style.left = `${Math.random() * 100}%`;
@@ -290,5 +290,5 @@
         });
     </script>
 </body>
-</html>
-
+    </html>
+    
